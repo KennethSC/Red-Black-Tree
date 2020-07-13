@@ -7,7 +7,7 @@
 TOP              = Order
 TOP_OBJ          = $(TOP).o
 TOP_SRC          = $(TOP).c
-ADT              = Dictionary
+ADT              = RB_Tree
 ADT_OBJ          = $(ADT).o
 ADT_SRC          = $(ADT).c
 ADT_HDR          = $(ADT).h
