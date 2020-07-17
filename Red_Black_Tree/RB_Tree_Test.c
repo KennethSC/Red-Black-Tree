@@ -55,6 +55,7 @@ int insertSize_test()
 
     ans = size(T);
     freeTree(&T);
+    free(p);
     return ans;
 }
 
@@ -87,6 +88,7 @@ int deleteSize_test()
 
     ans = size(T);
     freeTree(&T);
+    free(p);
     return ans;
 
 }
@@ -125,6 +127,7 @@ char* currKey_test()
 
     ans = currentKey(T);
     freeTree(&T);
+    free(p);
     return ans;
 
 }
@@ -163,6 +166,7 @@ char* prev_test()
 
     ans = currentKey(T);
     freeTree(&T);
+    free(p);
     return ans;
 
 }
@@ -186,6 +190,7 @@ int lookup_test()
 
     ans = *lookup(T, "O");
     freeTree(&T);
+    free(p);
     return ans;
 
 }
@@ -213,6 +218,7 @@ int makeEmpty_test()
 
     ans = size(T);
     freeTree(&T);
+    free(p);
     return ans;
 
 }
@@ -241,6 +247,7 @@ int insertVal_test()
     {
         wrong = *currentVal(T);
         freeTree(&T);
+        free(p);
         return wrong;
     }
 
@@ -250,11 +257,13 @@ int insertVal_test()
     {
         wrong = *currentVal(T);
         freeTree(&T);
+        free(p);
         return wrong;
     }
 
     ans = *currentVal(T);
     freeTree(&T);
+    free(p);
     return ans;
 
 }
@@ -289,6 +298,7 @@ int deleteVal_test()
     {
         wrong = *currentVal(T);
         freeTree(&T);
+        free(p);
         return wrong;
     }
 
@@ -300,11 +310,13 @@ int deleteVal_test()
     {
         wrong = *currentVal(T);
         freeTree(&T);
+        free(p);
         return wrong;
     }
 
     ans = *currentVal(T);
     freeTree(&T);
+    free(p);
     return ans;
 
 }
