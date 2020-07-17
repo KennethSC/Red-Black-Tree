@@ -1,35 +1,35 @@
 
 
--Makefile:      This file is a standard makefile that creates
-                an executable binary file called Order and WordFrequency
-                and includes a clean utility and a check utility for 
-                memory leaks.
+-Makefile:       This file is a standard makefile that creates
+                 an executable binary file called Order and WordFrequency
+                 and includes a clean utility and a check utility for 
+                 memory leaks.
 
 
--RB_Tree.h:     This file serves as the header file for the Red Black Tree
-                ADT that was made in Red Black Tree.c as well as containing
-                prototypes for functions that were created in Red Black Tree.c.
+-RB_Tree.h:      This file serves as the header file for the Red Black Tree
+                 ADT that was made in Red Black Tree.c as well as containing
+                 prototypes for functions that were created in Red Black Tree.c.
 
 
--RB_Tree.c:     This file contains a Red Black Tree ADT with its underlying data
-                structure being a Red Black Tree that includes a "cursor"
-                to be used for iteration. The cursor is meant to be used to 
-                traverse through the Red Black Tree by the client in either direction.
+-RB_Tree.c:      This file contains a Red Black Tree ADT with its underlying data
+                 structure being a Red Black Tree that includes a "cursor"
+                 to be used for iteration. The cursor is meant to be used to 
+                 traverse through the Red Black Tree by the client in either direction.
 
 
--Order.c:       This file contains the top level program for this assignment. Order.c will
-                take in two command line arguments, an input file and an output file. The
-                input file can be any text file and the program will read it, use the
-                Red Black Tree ADT to store the lines of the file into the ADT and print them 
-                out in three different tree walks: PreOrder, InOrder. and PostOrder to the 
-                specified outfile. 
+-Order.c:        This file contains the top level program for this assignment. Order.c will
+                 take in two command line arguments, an input file and an output file. The
+                 input file can be any text file and the program will read it, use the
+                 Red Black Tree ADT to store the lines of the file into the ADT and print them 
+                 out in three different tree walks: PreOrder, InOrder. and PostOrder to the 
+                 specified outfile. 
                 
 
-RB_Tree_Test.c: This file serves as the test suite for the red black tree ADT that was made in
-                RB_Tree.c. It contains 10 unit tests that test all the different functions that were
-                implemented in the ADT. The file prints out the test name, whether you passed the specific
-                test, displays your ouput and the expected output if you failed thet test, and then gives you
-                a score of how many test you passed out of 10.
+-RB_Tree_Test.c: This file serves as the test suite for the red black tree ADT that was made in
+                 RB_Tree.c. It contains 10 unit tests that test all the different functions that were
+                 implemented in the ADT. The file prints out the test name, whether you passed the specific
+                 test, displays your ouput and the expected output if you failed thet test, and then gives you
+                 a score of how many test you passed out of 10.
 
 
 
