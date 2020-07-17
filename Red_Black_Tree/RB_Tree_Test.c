@@ -281,13 +281,11 @@ void test(int expected, int actual, char* test_name)
 {
     if(expected == actual)
     {
-
         printf("\n%s: PASSED", test_name);
-	    points++;
+        points++;
     }
     else
     {
-
         printf("\n%s: FAILED (expected = %d, actual = %d)", test_name, expected, actual);
     }
 }
@@ -297,13 +295,11 @@ void testChar(char* expected, char* actual, char* test_name)
 {
     if(strcmp(expected, actual) == 0)
     {
-
         printf("\n%s: PASSED", test_name);
-	    points++;
+        points++;
     }
     else
     {
-
         printf("\n%s: FAILED (expected = %s, actual = %s)", test_name, expected, actual);
     }
 }
