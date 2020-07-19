@@ -299,7 +299,7 @@ int insertVal_test(Tree T, int* p)
 
     if(*currentVal(T) != p[2]){
         wrong = *currentVal(T);
-	    makeEmpty(T);
+        makeEmpty(T);
 
         return wrong;
     }
@@ -352,7 +352,7 @@ int deleteVal_test(Tree T, int* p)
 
     if(*currentVal(T) != p[4]){
         wrong = *currentVal(T);
-	    makeEmpty(T);
+        makeEmpty(T);
         return wrong;
     }
 
