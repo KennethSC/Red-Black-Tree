@@ -26,10 +26,10 @@
                 
 
 -RB_Tree_Test.c: This file serves as the test suite for the red black tree ADT that was made in
-                 RB_Tree.c. It contains 10 unit tests that test all the different functions that were
+                 RB_Tree.c. It contains 15 unit tests that test all the different functions that were
                  implemented in the ADT. The file prints out the test name, whether you passed the specific
                  test, displays your ouput and the expected output if you failed thet test, and then gives you
-                 a score of how many test you passed out of 10.
+                 a score of how many test you passed out of 15.
 
 
 
