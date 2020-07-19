@@ -38,7 +38,7 @@ $(ADT_OBJ) : $(ADT_SRC) $(ADT_HDR)
 	$(COMPILE) $(ADT_SRC)
 
 clean :
-	$(REMOVE) $(TOP) $(TOP_OBJ) $(TEST) $(TEST_OBJ) $(ADT_OBJ) out1 out2
+	$(REMOVE) $(TOP) $(TOP_OBJ) $(TEST) $(TEST_OBJ) $(ADT_OBJ) out1
 
 check1 : $(TEST)
 	$(MEMCHECK) $(TEST)
